@@ -13,7 +13,7 @@
             Регистрационная форма
             <p>Создание аккаунта</p>
         </div>
-        <div class="header-icon"><img class="img" src="https://cloud.githubusercontent.com/assets/12923998/19982807/95503f7e-a218-11e6-9fbf-9fe440f62b60.jpg"></div>
+        <div class="header-icon"><img class="img" src="bg.jpg"></div>
     </div>
 </div>
 <div class="main" >
@@ -107,6 +107,52 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="ind">Введите почтовый индекс</label>
+                        <input type="ind" name="ind" id="ind" placeholder="index" title="ind"/>
+                    </div>
+                    <div class="d2">
+                        <label>Высылаем спам прямо на дом</label>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="d1">
+                        <label for="select1">Пол</label>
+                        <select class="select" id="select1">
+                            <option>Парень</option>
+                            <option>Девушка</option>
+                        </select>
+                    </div>
+                    <div class="d2">
+                        <label>От ответа не зависит ни чего</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="tancor">Что мешает плохому танцору</label>
+                        <input type="tancor" name="tancor" id="tancor"/>
+                    </div>
+                    <div class="d2">
+                        <label>От ответа зависит многое</label>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="d1">
+                        <label for="in">Воздух в колёсах</label>
+                        <input type="in" name="in" id="in" />
+                    </div>
+                    <div class="d2">
+                        <label>Когда едет машина, крутиться ли воздух внутри колес?</label>
+                    </div>
+                </div>
+            </div>
+
             <div class="bot">
                 <div class="dl2">
                     <input type="checkbox"  id="check" required="on">
@@ -114,36 +160,42 @@
                 <div class="dr2">
                     <label for="check">Я согласен</label>
                 </div>
-                <div class="dr3">
 
-                    <div >
-                        <img src="https://cloud.githubusercontent.com/assets/12923998/19982838/b22c6f14-a218-11e6-9aac-e0913396a8c6.png">
-                    </div>
-                    <div>
-                        <label id="result">CAPTCHA:---></label>
-                    </div>
-                    <div>
-                        <input type="text" id="input">
-                    </div>
+
+                <div class="dr3">
+                    <!---->
+                    <!--<div >-->
+                        <!--<img src="kapcha.png">-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<label id="result">>&#45;&#45;CAPTCHA&ndash;&gt;</label>-->
+                    <!--</div>-->
+                    <!--<div>-->
+                        <!--<input type="text" id="input">-->
+                    <!--</div>-->
                 </div>
+
+
                 <div class="dr4">
                     <button class="button" name="button" id="but">Создать аккаунт</button>
                 </div>
             </div>
-            <script>
-                var input = document.getElementById("input");
-                input.oninput = function() {
-                    document.getElementById("result").innerHTML = input.value;
-                };
-                var button = document.getElementById("but");
-                button.onclick = function () {
-                    if(input.value=="6091") {
-                    }else{
-                        alert("Не правильно")
-                    }
-                };
-            </script>
-        </form>
+
+
+            <!--<script>-->
+                <!--var input = document.getElementById("input");-->
+                <!--input.oninput = function() {-->
+                    <!--document.getElementById("result").innerHTML = input.value;-->
+                <!--};-->
+                <!--var button = document.getElementById("but");-->
+                <!--button.onclick = function () {-->
+                    <!--if(input.value=="6091") {-->
+                    <!--}else{-->
+                        <!--alert("Не правильно")-->
+                    <!--}-->
+                <!--};-->
+            <!--</script>-->
+            <!---->
         </form>
     </div>
 </div>
