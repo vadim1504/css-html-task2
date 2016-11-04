@@ -33,7 +33,7 @@ body {
 .main{
     margin: auto;
     padding: 20px;
-    height: 70ex;
+    height: 930px;
     background-color: #2a4b6a;
 }
 .form {
@@ -140,7 +140,7 @@ input{
 }
 .footer {
     position: absolute;
-    height: 5%;
+    height: 20px;
     right: 0;
     bottom: 0;
     left: 0;
